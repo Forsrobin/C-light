@@ -5,15 +5,33 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "concurrently \"npm run serve\" \"cd backend/ && nodemon\""
   },
   "dependencies": {
+    "@foobar404/wave": "^1.2.7",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "concurrently": "^5.3.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "uws": "^10.148.1",
+    "vue": "^2.6.11",
+    "vue-audio-visual": "^2.2.0",
+    "vue-router": "^3.4.8",
+    "vue-slider-component": "^4.0.0-beta.3",
+    "vue-socket-io": "^0.3.2",
+    "vue-socket.io": "^3.0.10",
+    "vue-wave-surfer": "^1.0.1",
+    "wavesurfer.js": "^4.2.0"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.8",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
@@ -32,7 +50,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
