@@ -1,8 +1,8 @@
 # light-show
 
-## Project setup
+## API
 ```
-npm install
+# colorWipeRightLeft animationTime
 ```
 
 ### Compiles and hot-reloads for development
