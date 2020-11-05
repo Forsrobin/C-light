@@ -2,8 +2,18 @@
 
 ## API
 ```
-# colorWipeRightLeft animationTime
+colorWipeRightLeft animationTime duration color {r,g,b}
 ```
+```
+colorWipeLeftRight animationTime duration color {r,g,b}
+```
+```
+clear duration
+```
+```
+theaterChase duration color {r,g,b}
+```
+
 
 ### Compiles and hot-reloads for development
 ```
