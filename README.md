@@ -2,8 +2,10 @@
 
 ## API
 ```
-colorWipeRightLeft animationTime duration color {r,g,b}
+fadeIn duration color {r,g,b} direction
 ```
+Exmample:
+{ animation: 'fadeIn', duration: 1000, color: { r:255, g:0, b:0 }, direction: 'left' }
 ```
 colorWipeLeftRight animationTime duration color {r,g,b}
 ```
