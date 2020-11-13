@@ -10,8 +10,8 @@ It works by setting up a network with sockets and calling them with different AP
 for different effects. All the modules have different API calls so look below for information
 about all features.
 
-### API
-# Fade in
+# API
+##### Fade in
 The fade in have differnet directions `left` `right` `center`
 
 ```
