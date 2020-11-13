@@ -1,4 +1,12 @@
-# light-show
+#LIGHT SHOWW
+This is a project made for controlling and setting up light modules to your preference.
+You have a web interface where you can create custom presetes and also create light shows
+for home partys or events.
+
+###HOW IT WORKS
+It works by setting up a network with sockets and calling them with different API calls
+for different effects. All the modules have different API calls so look below for information
+about all features.
 
 ## API
 ```
