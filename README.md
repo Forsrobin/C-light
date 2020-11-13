@@ -13,9 +13,10 @@ about all features.
 ### API
 # Fade in
 The fade in have differnet directions `left` `right` `center`
-`
+
+```
 { animation: 'fadeIn', duration: 1000, color: { r:255, g:0, b:0 }, direction: 'left' }
-`
+```
 
 ### Compiles and minifies for production
 ```
