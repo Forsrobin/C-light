@@ -11,22 +11,10 @@ for different effects. All the modules have different API calls so look below fo
 about all features.
 
 # API
-##### Fade in
-The fade in have differnet directions `left` `right` `center`
+##### Swipe in
+The swipe in have differnet directions `left` `right` `center`
 
 ```
-{ animation: 'fadeIn', duration: 1000, color: { r:255, g:0, b:0 }, direction: 'left' }
+{ animation: 'swipeIn', duration: 1000, color: { r:255, g:0, b:0 }, direction: 'left' }
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
