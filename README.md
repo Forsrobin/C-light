@@ -36,5 +36,5 @@ The snake effect creates a pulse of `n` leds moving in your direction. Snake hav
 The rainbow effect displays a rainbow on your led
 
 ```
-{ animation: 'rainbow', duration: 1000 }
+{ animation: 'rainbow', duration: 1000, speed: 20 }
 ```
