@@ -11,10 +11,23 @@ for different effects. All the modules have different API calls so look below fo
 about all features.
 
 # API
-##### Swipe in
-The swipe in have differnet directions `left` `right` `center`
+##### Static
+Static displays a static color of your choice
 
 ```
-{ animation: 'swipeIn', duration: 1000, color: { r:255, g:0, b:0 }, direction: 'left' }
+{ animation: 'static', duration: 1000, color: { r:255, g:0, b:0 } }
 ```
 
+##### Slide in
+The slide in have differnet directions `left` `right` `center`
+
+```
+{ animation: 'slide_in', duration: 1000, color: { r:255, g:0, b:0 }, direction: 'left' }
+```
+
+##### Snake
+The snake effect creates a pulse of `n` leds moving in your direction. Snake have differnet directions `left` `right` `center`
+
+```
+{ animation: 'snake', duration: 1000, color: { r:255, g:0, b:0 }, numLeds: 5, direction: 'left' }
+```
